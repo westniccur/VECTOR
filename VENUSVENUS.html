@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venus Merchant</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+.hero {
+    height: 400px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    padding: 20px
+}
+           
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #ff5722;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    background: #ccc;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #ff5722;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e64a19;
+}
+
+.cta {
+    background: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width: 768px) {
+    .hero {
+        font-size: 22px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>VENUS WEAPONS MERCHANT</h1>
+    <p>Legit • Reliable • affordable</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <img src="c:\Users\westn\Desktop\Images\file_00000000c01471f595029205f8e9dcd3 (1).png" alt="VENUS MERCHANT"
+      style="width:100%; height:100%; object-fit:cover;">
+</section>
+
+<div class="container">
+    <h2 class="section-title">Our Gun Collection</h2>
+
+    <div class="products">
+
+        <!-- 23 PRODUCT IMAGE SLOTS -->
+
+        <!-- Repeatable Product Block -->
+        
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="c:\Users\westn\Desktop\Images\IMG-20260129-WA0027 (1).jpg" alt="250pcs 9MM - SELLIER & BELLOT 155GR 1">
+            <h3>9MM1</h3>
+            <p>This product is 100% verified by venus, please review this products description.</p>
+            <div class="price">$70.00 </div>
+            <button onclick="openCryptoModal()">Pay with Crypto</button>
+        </div>
+
+        <!-- Copy this block and replace numbers up to 23 -->
+
+        <!-- PRODUCTS 2 to 23 -->
+        
+        <!-- You can change the image file names later -->
+        
+        <!-- Automatically generated slots below -->
+
+        <!-- START AUTO SLOTS -->
+        
+        <!-- 2 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130455.jpg" alt="PRODUCT 2"><h3>Baretta 92FS Stainless 9 MM</h3><p>THE 92FS is a double/single-action semiauto pistol that employs an open-slide,short recoil delayed-locking-block system,which yields a faser cycle time.</p><div class="price">$450.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 3 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_192522 (1).jpg" alt="PRODUCT 3"><h3>Glock 17 - 9 19 mm</h3><p>The Glock 17 is a premier 9x19mm, striker-fired,full-size pistol renowned for its reliability.</p><div class="price">$310.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 4 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\IMG-20260129-WA0023 (1).jpg" alt="PRODUCT 4"><h3>Glock 19 Gen5 9mm</h3><p>The Glock 19 Gen5 Pistol in 9mm luger is ideal for a more versetile role due to its reduced dimensions.</p><div class="price">$370.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 5 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\IMG-20260129-WA0017 (1).jpg" alt="PRODUCT 5"><h3>Glock 36 Gen 3</h3><p>The GLOCK 36 Presents grip ergonomics of the next dimension.</p><div class="price">$360.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 6 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_192042 (1).jpg" alt="PRODUCT 6"><h3>Glock 48 (9mm)</h3><p>The Glock 48 is a slimline 9mm semi-auxt dimension automatic pistol designed for concealed Carry.</p><div class="price">$425.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 7 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_192120 (1).jpg" alt="PRODUCT 7"><h3>Sig Saucer p332 for sale</h3><p>.The Sig Sauce p332 is a higly modular,sriker-fired,polymer-framed pistol widely used by U.S military(M17/M18)and law enforcement</p><div class="price">$920.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 8 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_192222 (1).jpg" alt="PRODUCT 8"><h3>Taurus tx 22 compact for sale 8</h3><p>The TaurusTX is th emost advanced 22LR rimfire pistol around,engineered to deliver competition tier accuracy & reliability.</p><div class="price">$545.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 9 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_170028.jpg" alt="PRODUCT 9"><h3>Sig saucer M17 Pistol for sale 9</h3><p>The SIG SAUCER M17 is the commercial version of the U.S military modular Handgun system(MHS) chosen to replace m9.</p><div class="price">$1150.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 10 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_201444.jpg" alt="PRODUCT 10"><h3>Buy Baretta APX A1 Carry 9mm 10</h3><p>The Baretta APX A1 Carry encompasses the reality and quality.</p><div class="price">$409.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 11 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\IMG-20251227-WA0009 (1).jpg" alt="PRODUCT 11"><h3>AK47-7.62X39MM2 11</h3><p>The AK-47 (Avtomat Kalashnikova 1947) is a gas-operated, 7.62×39mm assault rifle developed in the Soviet Union by Mikhail Kalashnikov in 1947.
+Key Facts
+Caliber: 7.62×39mm
+Action: Gas-operated, rotating bolt
+Magazine capacity: Typically 30 rounds
+Effective range: About 300–400 meters
+Noted for: Reliability, durability, and simple design.</p><div class="price">$600.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 12 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_131328.jpg" alt="PRODUCT 12"><h3>7.6X39-Ammp(250 Round) 12</h3><p>About 7.62×39mm
+Caliber: 7.62mm
+Case length: 39mm
+Type: Intermediate rifle cartridge
+Common uses: Sporting, hunting (where legal), and military service rifles
+250 Rounds
+A 250-round quantity is typically sold as:
+5 boxes of 50 rounds, or
+A bulk pack/case.</p><div class="price">$110 per box</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 13 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130716.jpg" alt="PRODUCT 13"><h3>Canik TP9 13</h3><p>The Canik TP9 is a family of semi-automatic 9 mm pistols manufactured by Canik Arms, a Turkish firearms company based in Istanbul. These pistols are known for offering modern features and high capacity in a polymer frame at a relatively affordable price compared with many other duty-style handguns..</p><div class="price">$550.00</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 14 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\file_00000000619c71f5adb9605c888b7cae.png" alt="PRODUCT 14"><h3>Shotguns for sale 14</h3><p>A shotgun is a firearm designed to fire a spread of small pellets (“shot”) or a single projectile (“slug”), primarily used for hunting, sport shooting, and sometimes law enforcement or military purposes..</p><div class="price">$1500.00 per box</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 15 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130617.jpg" alt="PRODUCT 15"><h3>Mossberg 590 For Sale 15</h3><p>Acheter Mossberg 590 En Ligne,Aquista.</p><div class="price">$1000.00 per box</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 16 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_202331.jpg" alt="PRODUCT 16"><h3>Buy Guns Online 16</h3><p>Buy guns on discount,Buy guns anonymously,Buy guns safely.</p><div class="price">$700.00 </div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 17 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130530.jpg" alt="PRODUCT 17"><h3> SIG DH3 P320 X5 9MM 17</h3><p></p>SIG DH3 P320 X5 9MM is designed tooffer the perfect blend of competition and tactical features<div class="price">$1300.00</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 18 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130438.jpg" alt="PRODUCT 18"><h3>KIMBER K6XS ULTRA 38 18.</h3><p>The K6XS is an extra small, ultra-lightweight.</p><div class="price">$640</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 19 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130405.jpg" alt="PRODUCT 19"><h3>TAURUS JUDGE 3" 45LC/410 19</h3><p>The Tairus Judge is named for the many judges who carry it into the courtroom for their protection and is capable of chambering both 410bore 2.50" and the 45 colt.</p><div class="price">$520.00</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 20 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130300.jpg" alt="PRODUCT 20"><h3>TAURUS JUDGE EXECUTIVE 45IC/410 20</h3><p>TAURUS JUDGE EXECUTIVE 45IC/410 20 is assemled by hand in a separate room by a team of specially trained gunsmiths,ensuring that the fit and finishis exquisite.</p><div class="price">$810.00</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+        <!-- 21 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130158.jpg" alt="PRODUCT 21"><h3>Q HONEY BADGER 300 BLK Pistol</h3><p>Free Floating MLOK Handguard.</p><div class="price">$2800.00</div><button>Order Now</button></div>
+        <!-- 22 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130127.jpg" alt="PRODUCT 22"><h3>COLT KING COBRA CARRY REVOLVER 357MAG 22.</h3><p>The King Cobra Carry sports a heavy duty frame and brushed stainless steel construction.</p><div class="price">$899.00</div><button>Order Now</button></div>
+        <!-- 23 -->
+        <div class="product"><img src="c:\Users\westn\Desktop\Images\20260221_130018.jpg" alt="PRODUCT 23"><h3>Wilson Combat EDCX9 2.0 23</h3><p>Wilson Combat is a U.S.-based firearms manufacturer founded in 1977 by Bill Wilson. The company is best known for producing high-end, custom 1911-style pistols and other premium firearms.
+What They’re Known For
+Custom 1911 pistols (tight tolerances, hand-fitted parts)
+Tactical pistols for defense and law enforcement
+AR-style rifles and accessories
+Precision craftsmanship and reliability.</p><div class="price">$3000.00</div><button onclick="openCryptoModal()">Pay with Crypto</button></div>
+
+    </div>
+</div>
+
+<section class="cta">
+    <h2>Bulk Orders Available</h2>
+    <p>Contact us today for more information.</p>
+    <button>Contact Us</button>
+</section>
+
+<footer>
+    <p>
+        contact:
+        <a href="mailto:
+        venusandvenusdealers@gmail.com"
+        style="color: #ff9800;
+        text-decoration: none;font-weight: bold;">
+        venusandvenusdealers@gmail.com
+    </a>
+    </p>
+    <p>@ 2026 Weapons Merchant| ALL Rights Reserved</p>
+</footer>
+<!-- CRYPTO PAYMENT MODAL -->
+<div id="cryptoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); justify-content:center; align-items:center;">
+
+  <div style="background:white; width:90%; max-width:400px; padding:25px; border-radius:10px; text-align:center; position:relative;">
+    
+    <h2 style="color:#ff5722;">Pay with Crypto (BEP20)</h2>
+    <p>Send payment to the wallet address below:</p>
+
+    <div style="background:#f4f4f4; padding:10px; border-radius:5px; word-break:break-all; font-size:14px; margin:10px 0;">
+      0x8ed636e663afeef671ef030889c26e11cc25b0a0
+    </div>
+
+    <button onclick="copyAddress()" style="margin-bottom:10px;">Copy Address</button>
+
+    <p style="font-size:13px; color:#777;">Network: BEP20 (BNB Smart Chain)</p>
+
+    <input type="text" id="txHash" placeholder="Enter Transaction Hash" style="width:100%; padding:8px; margin-top:10px; border:1px solid #ccc; border-radius:5px;">
+
+    <button onclick="submitPayment()" style="margin-top:10px; width:100%;">Confirm Payment</button>
+
+    <button onclick="closeModal()" style="margin-top:10px; background:#999; width:100%;">Cancel</button>
+
+  </div>
+</div>
+
+<script>
+function openCryptoModal() {
+    document.getElementById("cryptoModal").style.display = "flex";
+}
+
+function closeModal() {
+    document.getElementById("cryptoModal").style.display = "none";
+}
+
+function copyAddress() {
+    navigator.clipboard.writeText("0x8ed636e663afeef671ef030889c26e11cc25b0a0");
+    alert("Wallet address copied!");
+}
+
+function submitPayment() {
+    let tx = document.getElementById("txHash").value;
+    if(tx === "") {
+        alert("Please enter transaction hash.");
+    } else {
+        alert("Payment submitted! We will verify shortly.");
+        closeModal();
+    }
+}
+</script>
+
+</body>
+</html>
